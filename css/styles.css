@@ -1,6 +1,11 @@
 body{
   background-color:#F8EDE3;
 }
+
+img:hover {
+  background-color: gold;
+}
+
 hr{
   border-style:dotted none none;
   border-color: grey;
@@ -24,4 +29,7 @@ h5 {
 }
 h6 {
   color: #5F9DF7;
+}
+.daniel-Adam {
+  border-radius:350%;
 }
