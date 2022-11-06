@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -8,12 +9,12 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Ubuntu:ital@1&display=swap" rel="stylesheet">
-<!--bootstrap link-->
+  <!--bootstrap link-->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
   <link rel="stylesheet" href="css/styles.css">
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
-<!--font awesome icons-->
+  <!--font awesome icons-->
   <script src="https://kit.fontawesome.com/06b38dfefa.js" crossorigin="anonymous"></script>
 </head>
 
@@ -31,16 +32,16 @@
         <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
           <ul class="navbar-nav ms-auto ">
             <li>
-              <a class="nav-link" href="">Get Started</a>
+              <a class="nav-link" href="#pricing">Get Started</a>
             </li>
             <li>
-              <a class="nav-link" href="">How it Works?</a>
+              <a class="nav-link" href="#features">What can we offer?</a>
             </li>
             <li>
-              <a class="nav-link" href="">Contact</a>
+              <a class="nav-link" href="#footer">Contact</a>
             </li>
             <li>
-              <a class="nav-link" href="">About us</a>
+              <a class="nav-link" href="testimonials">About us</a>
             </li>
           </ul>
         </div>
@@ -67,24 +68,24 @@
   <section id="features">
     <div class="container-fluid">
 
-  <div class="row">
-    <div class="col-lg-4 col-md-12">
-    <i class="fa-solid fa-magnifying-glass col-6 features-icon"></i>
-    <h3>Find a Mentor or Be One.</h3>
-    <p class= "features-box">Learn to get the skills and the path the you need.</p>
+      <div class="row">
+        <div class="col-lg-4 col-md-12">
+          <i class="fa-solid fa-magnifying-glass col-6 features-icon"></i>
+          <h3>Find a Mentor or Be One.</h3>
+          <p class="features-box">Learn to get the skills and the path the you need.</p>
+        </div>
+        <div class="col-lg-4 col-md-12">
+          <i class="fa-solid fa-globe  col-6 features-icon"></i>
+          <h3>International Programs.</h3>
+          <p class="features-box">People all over the world that want to connect.</p>
+        </div>
+        <div class="col-lg-4 col-md-12">
+          <i class="fa-solid fa-handshake col-6 features-icon"></i>
+          <h3>Find a connection near by.</h3>
+          <p class="features-box">Connect Mentor or Student close to you.</p>
+        </div>
+      </div>
     </div>
-    <div class="col-lg-4 col-md-12">
-    <i class="fa-solid fa-globe  col-6 features-icon"></i>
-    <h3>International Programs.</h3>
-    <p class= "features-box">People all over the world that want to connect.</p>
-    </div>
-    <div class="col-lg-4 col-md-12">
-    <i class="fa-solid fa-handshake col-6 features-icon"></i>
-    <h3>Find a connection near by.</h3>
-    <p class= "features-box">Connect Mentor or Student close to you.</p>
-    </div>
-  </div>
-  </div>
   </section>
 
 
@@ -92,14 +93,37 @@
 
   <section id="testimonials">
 
-    <h2>"More Private than linkedIn or Facebook. I actualy found a mentor for one on one talks"</h2>
-    <img class="testimonials-image" src="images/1on1.png" alt="conversation">
-    <em>Daniel, Yavne (Israel)</em>
-
-    <!-- <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
-    <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
-    <em>Beverly, Illinois</em> -->
-
+    <div id="carousel-testimonials" class="carousel slide" data-bs-ride="false">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carousel-testimonials" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#carousel-testimonials" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carousel-testimonials" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h2>"More Private than linkedIn or Facebook. I actualy found a mentor for one on one talks"</h2>
+          <img class="testimonials-image" src="images/1on1.png" alt="conversation">
+          <em>Daniel, Yavne (Israel)</em>
+        </div>
+        <div class="carousel-item">
+          <h2>I've met a great Mentor, She helps me with self growing and meditations.</h2>
+          <img class="testimonials-image" src="images/lady-img.jpg" alt="conversation">
+          <em>Beverly, Illinois</em>
+        </div>
+        <div class="carousel-item">
+          <h2>"More Private than linkedIn or Facebook. I actualy found a mentor for one on one talks"</h2>
+          <img class="testimonials-image" src="images/1on1.png" alt="conversation">
+          <em>Daniel, Yavne (Israel)</em>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel-testimonials" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel-testimonials" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
   </section>
 
 
@@ -118,33 +142,50 @@
 
   <section id="pricing">
 
-    <h2>A Plan for Every Dog's Needs</h2>
-    <p>Simple and affordable price plans for your and your dog.</p>
+    <h2 class="pricing-header">Sign-Up to Get Mentored or Be Mentor.</h2>
 
+    <div class="row row-cols-1 row-cols-md-3 g-4 cards">
+      <div class="col">
+        <div class="card h-100">
+          <div class="card-header">
+            <h3 class="head-card">Get Mentored</h3>
+          </div>
+          <div class="card-body">
+            <p>Add your Wish List</p>
+            <p>Get a Match</p>
+            <p>Start conversations</p>
+            <button type="button" class="btn btn-dark">Sign Up</button>
+          </div>
+        </div>
+      </div>
 
-    <h3>Chihuahua</h3>
-    <h2>Free</h2>
-    <p>5 Matches Per Day</p>
-    <p>10 Messages Per Day</p>
-    <p>Unlimited App Usage</p>
-    <button type="button">Sign Up</button>
-
-
-    <h3>Labrador</h3>
-    <h2>$49 / mo</h2>
-    <p>Unlimited Matches</p>
-    <p>Unlimited Messages</p>
-    <p>Unlimited App Usage</p>
-    <button type="button">Sign Up</button>
-
-
-    <h3>Mastiff</h3>
-    <h2>$99 / mo</h2>
-    <p>Pirority Listing</p>
-    <p>Unlimited Matches</p>
-    <p>Unlimited Messages</p>
-    <p>Unlimited App Usage</p>
-    <button type="button">Sign Up</button>
+      <div class="col">
+        <div class="card h-100">
+          <div class="card-header">
+            <h3 class="head-card">Be Mentor</h3>
+          </div>
+          <div class="card-body">
+            <p>Add your qualifications</p>
+            <p>Get a request to confirm or deny</p>
+            <p>Start conversations</p>
+            <button type="button" class="btn btn-dark">Sign Up</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <div class="card-header">
+            <h3 class="head-card">Contact Us</h3>
+          </div>
+          <div class="card-body">
+            <p>For More information</p>
+            <p>For us to getting Better</p>
+            <p>New initiatives ideas</p>
+            <button type="button" class="btn btn-outline-dark">Contact Us</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
   </section>
 
@@ -153,9 +194,10 @@
 
   <section id="cta">
 
-    <h3>Find the True Love of Your Dog's Life Today.</h3>
-    <button type="button">Download</button>
-    <button type="button">Download</button>
+    <h3 class="cta-header">Meet new People and get to self-growth.</h3>
+    <button type="button" class="btn btn-lg btn-dark footer-button .mx-auto"><i class="fa-brands fa-apple"></i> Download</button>
+    <button type="button" class="btn btn-lg btn-outline-light footer-button .mx-auto"><i class="fa-brands fa-google-play"></i> Download</button>
+
 
   </section>
 
@@ -163,8 +205,11 @@
   <!-- Footer -->
 
   <footer id="footer">
-
-    <p>© Copyright TinDog</p>
+    <i class="footer-image fa-brands fa-twitter"></i>
+    <i class="footer-image fa-brands fa-facebook-f"></i>
+    <i class="footer-image fa-brands fa-instagram"></i>
+    <i class="footer-image fa-sharp fa-solid fa-envelope"></i>
+    <p>© Copyright Daniel Adam</p>
 
   </footer>
 
