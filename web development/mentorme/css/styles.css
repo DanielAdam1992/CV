@@ -10,7 +10,7 @@ color: white;
 
 h2 {
   font-family: "Montserrat-bold",sans-serif;
-  font-size: 4rem;
+  font-size: 2rem;
   margin: 0;
   padding:5%;
   text-align: center;
@@ -108,7 +108,6 @@ padding: 0 10px;
 
 /* pricing section */
 #pricing  {
-  padding: 100px;
   text-align: center;
 }
 .card {
@@ -139,7 +138,7 @@ text-align: center;
 .cta-header {
   color:white;
   font-family: "Montserrat-bold",sans-serif;
-  font-size: 4rem;
+  font-size: 2rem;
   margin: 0;
   padding:5%;
   text-align: center;
@@ -169,5 +168,8 @@ text-align: center;
   }
   .footer-button {
     margin:5% 3% 3% 0;
+  }
+  body {
+    font-size: -50%;
   }
 }
